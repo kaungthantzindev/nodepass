@@ -1,0 +1,16 @@
+{
+  "name": "nodepass",
+  "version": "1.0.0",
+  "description": "password generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kaung Thant Zin",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "clipboardy": "^3.0.0",
+    "commander": "^9.2.0"
+  }
+}
