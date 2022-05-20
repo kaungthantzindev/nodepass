@@ -16,17 +16,20 @@ npm install
 nodepass --help
 ```
 
-**help**
-<img src="./screenshots/help.png"/>
+**password length**
 
-**length**
-<img src="./screenshots/length.png"/>
+```bash
+nodepass -l 30
+```
 
-**no number**
-<img src="./screenshots/nonumber.png"/>
+**no number / no symbol**
 
-**no symbol**
-<img src="./screenshots/nosymbol.png"/>
+```bash
+nodepass -l 30 -nn -ns
+```
 
 **filesave**
-<img src="./screenshots/filesave.png"/>
+
+```bash
+nodepass -l 30 -nn -ns -s password.txt
+```
