@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const program = require('commander');
 const createPassword = require('./src/createPassword');
 const chalk = require('chalk');
